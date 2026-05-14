@@ -1,0 +1,1 @@
+"""bronzebullballs - walk-forward validation + S&P 500 screening CLI."""

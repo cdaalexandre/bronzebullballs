@@ -1,0 +1,1 @@
+"""Unit tests - pure domain functions with synthetic fixtures, no I/O."""

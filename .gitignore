@@ -1,0 +1,53 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / coverage / type-check
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# Editors
+.vscode/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+
+# Windows / OS
+Thumbs.db
+desktop.ini
+~$*
+.DS_Store
+
+# Logs / runtime artefacts
+*.log
+.bronzebullballs/
+logs/
+
+# Local secrets (none used today; defensive)
+.env
+.envrc
+*.pem
