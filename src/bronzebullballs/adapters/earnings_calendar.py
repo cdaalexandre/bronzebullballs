@@ -18,6 +18,4 @@ class YFinanceCalendar:
     """
 
     def days_until_earnings(self, ticker: str) -> int | None:
-        raise NotImplementedError(
-            "port from corpus_master_v8 yfinance earnings block"
-        )
+        raise NotImplementedError("port from corpus_master_v8 yfinance earnings block")

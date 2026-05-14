@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 from importlib.metadata import PackageNotFoundError, version
+from typing import cast
 
 from bronzebullballs.log import get_logger, setup_logging
 
@@ -108,4 +109,4 @@ def main(argv: list[str] | None = None) -> int:
         parser.print_help()
         return 0
 
-    return args.func(args)
+    return cast(int, args.func(args))

@@ -72,6 +72,4 @@ def setup_logging(
             fh.setFormatter(formatter)
             root.addHandler(fh)
         except OSError:
-            root.warning(
-                "Could not create log file at %s -- console only", LOG_FILE
-            )
+            root.warning("Could not create log file at %s -- console only", LOG_FILE)

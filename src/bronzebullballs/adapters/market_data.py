@@ -31,6 +31,4 @@ class YahooQueryFetcher:
         self,
         tickers: list[str],
     ) -> dict[str, dict[str, float | str | None]]:
-        raise NotImplementedError(
-            "port from corpus_master_v8.fetch_fundamentals"
-        )
+        raise NotImplementedError("port from corpus_master_v8.fetch_fundamentals")
