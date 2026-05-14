@@ -4,3 +4,7 @@
 only parses argv, sets up logging, builds adapters, and hands off to the
 service layer.
 """
+
+from bronzebullballs.entrypoints.cli import main
+
+__all__ = ["main"]
